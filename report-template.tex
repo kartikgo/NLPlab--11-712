@@ -1,0 +1,101 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsfonts,eucal,amsbsy,amsopn,amsmath}
+\usepackage{url}
+\usepackage[sort&compress]{natbib}
+\usepackage{natbibspacing}
+\usepackage{latexsym}
+\usepackage{wasysym} 
+\usepackage{rotating}
+\usepackage{fancyhdr}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+\usepackage{sectsty}
+\usepackage[dvipsnames,usenames]{color}
+\usepackage{multicol}
+\definecolor{orange}{rgb}{1,0.5,0}
+\usepackage{multirow}
+\usepackage{sidecap}
+\usepackage{caption}
+\renewcommand{\captionfont}{\small}
+\setlength{\oddsidemargin}{-0.04cm}
+\setlength{\textwidth}{16.59cm}
+\setlength{\topmargin}{-0.04cm}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{22.94cm}
+\allsectionsfont{\normalsize}
+\newcommand{\ignore}[1]{}
+\newenvironment{enumeratesquish}{\begin{list}{\addtocounter{enumi}{1}\arabic{enumi}.}{\setlength{\itemsep}{-0.25em}\setlength{\leftmargin}{1em}\addtolength{\leftmargin}{\labelsep}}}{\end{list}}
+\newenvironment{itemizesquish}{\begin{list}{\setcounter{enumi}{0}\labelitemi}{\setlength{\itemsep}{-0.25em}\setlength{\labelwidth}{0.5em}\setlength{\leftmargin}{\labelwidth}\addtolength{\leftmargin}{\labelsep}}}{\end{list}}
+
+\bibpunct{(}{)}{;}{a}{,}{,}
+\newcommand{\nascomment}[1]{\textcolor{blue}{\textbf{[#1 --NAS]}}}
+
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage~of \pageref{lastpage}}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\title{11-712:  NLP Lab Report}
+\author{\nascomment{Kartik Goyal}}
+\date{April 26, 2013 \nascomment{due date}}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\nascomment{one paragraph here summarizing what the paper is about}
+\end{abstract}
+
+\nascomment{brief introduction}
+
+\section{Basic Information about \nascomment{Spanish}}
+
+Spanish is a Romance(Ibero romance group) language that originated in Castile region of Spain. Apart from the other Romance languages, it enriched it's vocabulary from Basque and Arabic. Spanish is closely related to other Iberian Languages like Italian and Portuguese with which, it has 82\% and 89\% lexical similarity respectively. Spanish is written in Latin script. The interrogative and exclamatory clauses are introduces with inverted question and exclamation marks. 
+
+It is the second most spoken language by number of native speakers and is one of the 6 official languages of the united nations. It is spoken by around 329 million people all over the world. Spanish is the primary language of 20 countries worldwide. Apart from Spain, it is official language of many Latin American regions(Argentina, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Uruguay, Venezuela, Peru,Puerto Rico). It is also, the official language of Equatorial Guinea in Africa.
+
+There are some grammatical and lexical differences between the Spanish spoken in regions of Spain and the Spanish spoken in Latin America. The main grammatical variations between dialects of Spanish involve differing uses of second person pronouns. For eg. In most of Spain, 'ustedes' and 'vosotros' are used according to the degree of formality, but only 'ustedes' is used in Latin America. There are some important vocabulary differences too between the dialects.
+
+Spanish has an S-V-O grammar and is a heavily inflected language. It has a two gender noun system and the inflections of nouns, adjectives and determiners are caused by the number and gender. There are about 50 conjugated forms per verb which are caused by tense, number, person, T-V distinctions(formal) for second person, mood, aspect and voice. Spanish has some irregular verbs with respect to the conjugation rules like 'sentir', 'requerir' etc. The modifying constituents tend to be placed after their head words. Also, usually the adjectives are placed after nouns.
+
+Spanish is a morphologically rich language and this tool aims to carry out a resonably accurate morphological analysis of the language. 
+
+ 
+
+\section{Past Work on the Morphology of \nascomment{Your Language}}
+
+\section{Available Resources}
+
+\nascomment{include discussion of your corpora}
+
+\section{Survey of Phenomena in \nascomment{Your Language}}
+
+\section{Initial Design}
+
+\section{System Analysis on Corpus A}
+
+\section{Lessons Learned and Revised Design}
+
+\section{System Analysis on Corpus B}
+
+\section{Final Revisions}
+
+\section{Future Work}
+
+
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+\label{lastpage}
+\end{document}
