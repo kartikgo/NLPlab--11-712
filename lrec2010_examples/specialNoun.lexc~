@@ -1,0 +1,15 @@
+Multichar_Symbols +N +Adj +mas +fem +Sg +Pl GUESS
+
+LEXICON Root
+
+Noun ;
+
+LEXICON Noun
+<[a|á|Á|b| c| d| e| é|É| f| g| h| i|í|Í| j| k| l| m| n|ñ|Ñ| o|ó|Ó| p| q| r| s| t|u|ú|Ú|ü|Ü|v| w| x| y| z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z]*> Ninf;
+
+LEXICON Ninf
+
+o+N+Sg+mas:^o   #;
+a+N+Sg+fem:^a   #;
+o+N+Pl+mas:^os  #;
+a+N+Pl+fem:^as  #;

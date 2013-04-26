@@ -1,0 +1,72 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund GV1 GV2 GV3
+LEXICON Root
+ser Verb1;
+
+
+!Verbs ending in ar
+LEXICON Verb1
++V+1p+sg+tPres+mInd:soy #;
++V+2p+sg+tPres+mInd:eres #;
++V+3p+sg+tPres+mInd:es #;
++V+1p+pl+tPres+mInd:somos #;
++V+2p+pl+tPres+mInd:sois #;
++V+3p+pl+tPres+mInd:son #;
+
++V+1p+sg+tImp+mInd:era #;
++V+2p+sg+tImp+mInd:eras #;
++V+3p+sg+tImp+mInd:era #;
++V+1p+pl+tImp+mInd:éramos #;
++V+2p+pl+tImp+mInd:erais #;
++V+3p+pl+tImp+mInd:eran #;
+
++V+1p+sg+tPret:fui #;
++V+2p+sg+tPret:fuiste #;
++V+3p+sg+tPret:fue #;
++V+1p+pl+tPret:fuimos #;
++V+2p+pl+tPret:fuisteis #;
++V+3p+pl+tPret:fueron #;
+
++V+1p+sg+tFut+mInd:seré #;
++V+2p+sg+tFut+mInd:serás #;
++V+3p+sg+tFut+mInd:será #;
++V+1p+pl+tFut+mInd:seremos #;
++V+2p+pl+tFut+mInd:seréis #;
++V+3p+pl+tFut+mInd:serán #;
+
++V+1p+sg+mCond:sería #;
++V+2p+sg+mCond:serías #;
++V+3p+sg+mCond:sería #;
++V+1p+pl+mCond:seríamos #;
++V+2p+pl+mCond:seríais #;
++V+3p+pl+mCond:serían #;
+
++V+1p+sg+tPres+mSub:sea #;
++V+2p+sg+tPres+mSub:seas #;
++V+3p+sg+tPres+mSub:sea #;
++V+1p+pl+tPres+mSub:seamos #;
++V+2p+pl+tPres+mSub:seáis #;
++V+3p+pl+tPres+mSub:sean #;
+
++V+1p+sg+tImp+mSub:fuera #;
++V+2p+sg+tImp+mSub:fueras #;
++V+3p+sg+tImp+mSub:fuera #;
++V+1p+pl+tImp+mSub:fuéramos #;
++V+2p+pl+tImp+mSub:fuerais #;
++V+3p+pl+tImp+mSub:fueran #;
++V+1p+sg+tImp+mSub:fuese #;
++V+2p+sg+tImp+mSub:fueses #;
++V+3p+sg+tImp+mSub:fuese #;
++V+1p+pl+tImp+mSub:fuésemos #;
++V+2p+pl+tImp+mSub:fueseis #;
++V+3p+pl+tImp+mSub:fuesen #;
+
++V+1p+sg+tFut+mSub:fuere #;
++V+2p+sg+tFut+mSub:fueres #;
++V+3p+sg+tFut+mSub:fuere #;
++V+1p+pl+tFut+mSub:fuéremos #;
++V+2p+pl+tFut+mSub:fuereis #;
++V+3p+pl+tFut+mSub:fueren #;
+
++V+pastPart:sido #;
+
++V+Gerund:siendo #;

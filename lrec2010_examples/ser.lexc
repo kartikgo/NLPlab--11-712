@@ -1,0 +1,72 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund GV1 GV2 GV3
+LEXICON Root
+ser Verb1;
+
+
+!Verbs ending in ar
+LEXICON Verb1
+soy+V+1p+sg+tPres+mInd:soy #;
+eres+V+2p+sg+tPres+mInd:eres #;
+es+V+3p+sg+tPres+mInd:es #;
+somos+V+1p+pl+tPres+mInd:somos #;
+sois+V+2p+pl+tPres+mInd:sois #;
+son+V+3p+pl+tPres+mInd:son #;
+
+era+V+1p+sg+tImp+mInd:era #;
+eras+V+2p+sg+tImp+mInd:eras #;
+era+V+3p+sg+tImp+mInd:era #;
+éramos+V+1p+pl+tImp+mInd:éramos #;
+erais+V+2p+pl+tImp+mInd:erais #;
+eran+V+3p+pl+tImp+mInd:eran #;
+
+fui+V+1p+sg+tPret:fui #;
+fuiste+V+2p+sg+tPret:fuiste #;
+fue+V+3p+sg+tPret:fue #;
+fuimos+V+1p+pl+tPret:fuimos #;
+fuisteis+V+2p+pl+tPret:fuisteis #;
+fueron+V+3p+pl+tPret:fueron #;
+
+seré+V+1p+sg+tFut+mInd:seré #;
+serás+V+2p+sg+tFut+mInd:serás #;
+será+V+3p+sg+tFut+mInd:será #;
+seremos+V+1p+pl+tFut+mInd:seremos #;
+seréis+V+2p+pl+tFut+mInd:seréis #;
+serán+V+3p+pl+tFut+mInd:serán #;
+
+sería+V+1p+sg+mCond:sería #;
+serías+V+2p+sg+mCond:serías #;
+sería+V+3p+sg+mCond:sería #;
+seríamos+V+1p+pl+mCond:seríamos #;
+seríais+V+2p+pl+mCond:seríais #;
+serían+V+3p+pl+mCond:serían #;
+
+sea+V+1p+sg+tPres+mSub:sea #;
+seas+V+2p+sg+tPres+mSub:seas #;
+sea+V+3p+sg+tPres+mSub:sea #;
+seamos+V+1p+pl+tPres+mSub:seamos #;
+seáis+V+2p+pl+tPres+mSub:seáis #;
+sean+V+3p+pl+tPres+mSub:sean #;
+
+fuera+V+1p+sg+tImp+mSub:fuera #;
+fueras+V+2p+sg+tImp+mSub:fueras #;
+fuera+V+3p+sg+tImp+mSub:fuera #;
+fuéramos+V+1p+pl+tImp+mSub:fuéramos #;
+fuerais+V+2p+pl+tImp+mSub:fuerais #;
+fueran+V+3p+pl+tImp+mSub:fueran #;
+fuese+V+1p+sg+tImp+mSub:fuese #;
+fueses+V+2p+sg+tImp+mSub:fueses #;
+fuese+V+3p+sg+tImp+mSub:fuese #;
+fuésemos+V+1p+pl+tImp+mSub:fuésemos #;
+fueseis+V+2p+pl+tImp+mSub:fueseis #;
+fuesen+V+3p+pl+tImp+mSub:fuesen #;
+
+fuere+V+1p+sg+tFut+mSub:fuere #;
+fueres+V+2p+sg+tFut+mSub:fueres #;
+fuere+V+3p+sg+tFut+mSub:fuere #;
+fuéremos+V+1p+pl+tFut+mSub:fuéremos #;
+fuereis+V+2p+pl+tFut+mSub:fuereis #;
+fueren+V+3p+pl+tFut+mSub:fueren #;
+
+sido+V+pastPart:sido #;
+
+siendo+V+Gerund:siendo #;

@@ -1,0 +1,72 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund GV1 GV2 GV3
+LEXICON Root
+estar Verb1;
+
+
+!Verbs ending in ar
+LEXICON Verb1
+estoy+V+1p+sg+tPres+mInd:estoy #;
+estás+V+2p+sg+tPres+mInd:estás #;
+está+V+3p+sg+tPres+mInd:está #;
+estamos+V+1p+pl+tPres+mInd:estamos #;
+estáis+V+2p+pl+tPres+mInd:estáis #;
+están+V+3p+pl+tPres+mInd:están #;
+
+estaba+V+1p+sg+tImp+mInd:estaba #;
+estaba+V+2p+sg+tImp+mInd:estaba #;
+estaba+V+3p+sg+tImp+mInd:estaba #;
+estábamos+V+1p+pl+tImp+mInd:estábamos #;
+estabais+V+2p+pl+tImp+mInd:estabais #;
+estaban+V+3p+pl+tImp+mInd:estaban #;
+
+estuve+V+1p+sg+tPret:estuve #;
+estuviste+V+2p+sg+tPret:estuviste #;
+estuvo+V+3p+sg+tPret:estuvo #;
+estuvimos+V+1p+pl+tPret:estuvimos #;
+estuvisteis+V+2p+pl+tPret:estuvisteis #;
+estuvieron+V+3p+pl+tPret:estuvieron #;
+
+estaré+V+1p+sg+tFut+mInd:estaré #;
+estarás+V+2p+sg+tFut+mInd:estarás #;
+estará+V+3p+sg+tFut+mInd:estará #;
+estaremos+V+1p+pl+tFut+mInd:estaremos #;
+estaréis+V+2p+pl+tFut+mInd:estaréis #;
+estarán+V+3p+pl+tFut+mInd:estarán #;
+
+estaría+V+1p+sg+mCond:estaría #;
+estarías+V+2p+sg+mCond:estarías #;
+estaría+V+3p+sg+mCond:estaría #;
+estaríamos+V+1p+pl+mCond:estaríamos #;
+estaríais+V+2p+pl+mCond:estaríais #;
+estarían+V+3p+pl+mCond:estarían #;
+
+esté+V+1p+sg+tPres+mSub:esté #;
+estés+V+2p+sg+tPres+mSub:estés #;
+esté+V+3p+sg+tPres+mSub:esté #;
+estemos+V+1p+pl+tPres+mSub:estemos #;
+estéis+V+2p+pl+tPres+mSub:estéis #;
+estén+V+3p+pl+tPres+mSub:estén #;
+
+estuviera+V+1p+sg+tImp+mSub:estuviera #;
+estuvieras+V+2p+sg+tImp+mSub:estuvieras #;
+estuviera+V+3p+sg+tImp+mSub:estuviera #;
+estuviéramos+V+1p+pl+tImp+mSub:estuviéramos #;
+estuvierais+V+2p+pl+tImp+mSub:estuvierais #;
+estuvieran+V+3p+pl+tImp+mSub:estuvieran #;
+estuviese+V+1p+sg+tImp+mSub:estuviese #;
+estuvieses+V+2p+sg+tImp+mSub:estuvieses #;
+estuviese+V+3p+sg+tImp+mSub:estuviese #;
+estuviésemos+V+1p+pl+tImp+mSub:estuviésemos #;
+estuvieseis+V+2p+pl+tImp+mSub:estuvieseis #;
+estuviesen+V+3p+pl+tImp+mSub:estuviesen #;
+
+estuviere+V+1p+sg+testuvit+mSub:estuviere #;
+estuvieres+V+2p+sg+testuvit+mSub:estuvieres #;
+estuviere+V+3p+sg+testuvit+mSub:estuviere #;
+estuviéremos+V+1p+pl+testuvit+mSub:estuviéremos #;
+estuviereis+V+2p+pl+testuvit+mSub:estuviereis #;
+estuvieren+V+3p+pl+testuvit+mSub:estuvieren #;
+
+estado+V+pastPart:estado #;
+
+estando+V+Gerund:estando #;

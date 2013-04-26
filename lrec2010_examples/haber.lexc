@@ -1,0 +1,73 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund GV1 GV2 GV3
+LEXICON Root
+haber Verb1;
+
+
+!Verbs ending in ar
+LEXICON Verb1
+he+V+1p+sg+tPres+mInd:he #;
+has+V+2p+sg+tPres+mInd:has #;
+ha+V+3p+sg+tPres+mInd:ha #;
+hay+V+3p+sg+tPres+mInd:hay #;
+hemos+V+1p+pl+tPres+mInd:hemos #;
+hebéis+V+2p+pl+tPres+mInd:habéis #;
+han+V+3p+pl+tPres+mInd:han #;
+
+había+V+1p+sg+tImp+mInd:había #;
+habías+V+2p+sg+tImp+mInd:habías #;
+había+V+3p+sg+tImp+mInd:había #;
+habíamos+V+1p+pl+tImp+mInd:habíamos #;
+habíais+V+2p+pl+tImp+mInd:habíais #;
+habían+V+3p+pl+tImp+mInd:habían #;
+
+hube+V+1p+sg+tPret:hube #;
+hubiste+V+2p+sg+tPret:hubiste #;
+hubo+V+3p+sg+tPret:hubo #;
+hubimos+V+1p+pl+tPret:hubimos #;
+hubisteis+V+2p+pl+tPret:hubisteis #;
+hubieron+V+3p+pl+tPret:hubieron #;
+
+habré+V+1p+sg+tFut+mInd:habré #;
+habrás+V+2p+sg+tFut+mInd:habrás #;
+habrá+V+3p+sg+tFut+mInd:habrá #;
+habremos+V+1p+pl+tFut+mInd:habremos #;
+habréis+V+2p+pl+tFut+mInd:habréis #;
+habrán+V+3p+pl+tFut+mInd:habrán #;
+
+habría+V+1p+sg+mCond:habría #;
+habrías+V+2p+sg+mCond:habrías #;
+habría+V+3p+sg+mCond:habría #;
+habríamos+V+1p+pl+mCond:habríamos #;
+habríais+V+2p+pl+mCond:habríais #;
+habrían+V+3p+pl+mCond:habrían #;
+
+haya+V+1p+sg+tPres+mSub:haya #;
+hayas+V+2p+sg+tPres+mSub:hayas #;
+haya+V+3p+sg+tPres+mSub:haya #;
+hayamos+V+1p+pl+tPres+mSub:hayamos #;
+hayáis+V+2p+pl+tPres+mSub:hayáis #;
+hayan+V+3p+pl+tPres+mSub:hayan #;
+
+hubiera+V+1p+sg+tImp+mSub:hubiera #;
+hubieras+V+2p+sg+tImp+mSub:hubieras #;
+hubiera+V+3p+sg+tImp+mSub:hubiera #;
+hubiéramos+V+1p+pl+tImp+mSub:hubiéramos #;
+hubierais+V+2p+pl+tImp+mSub:hubierais #;
+hubieran+V+3p+pl+tImp+mSub:hubieran #;
+hubiese+V+1p+sg+tImp+mSub:hubiese #;
+hubieses+V+2p+sg+tImp+mSub:hubieses #;
+hubiese+V+3p+sg+tImp+mSub:hubiese #;
+hubiésemos+V+1p+pl+tImp+mSub:hubiésemos #;
+hubieseis+V+2p+pl+tImp+mSub:hubieseis #;
+hubiesen+V+3p+pl+tImp+mSub:hubiesen #;
+
+hubiere+V+1p+sg+tFut+mSub:hubiere #;
+hubieres+V+2p+sg+tFut+mSub:hubieres #;
+hubiere+V+3p+sg+tFut+mSub:hubiere #;
+hubiéremos+V+1p+pl+tFut+mSub:hubiéremos #;
+hubiereis+V+2p+pl+tFut+mSub:hubiereis #;
+hubieren+V+3p+pl+tFut+mSub:hubieren #;
+
+habido+V+pastPart:habido #;
+
+habido+V+Gerund:habiendo #;

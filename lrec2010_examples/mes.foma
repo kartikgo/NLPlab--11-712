@@ -1,0 +1,4 @@
+read lexc test.lexc
+define greek;
+define Cleanup {^} -> 0;
+regex  [greek .o. Cleanup];

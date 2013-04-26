@@ -1,0 +1,72 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund ^GV1 ^GV2 ^GV3
+LEXICON Root
+tener Verb1;
+
+
+!Verbs ending in ar
+LEXICON Verb1
++V+1p+sg+tPres+mInd:^tengo #;
++V+2p+sg+tPres+mInd:^tienes #;
++V+3p+sg+tPres+mInd:^tiene #;
++V+1p+pl+tPres+mInd:^tenemos #;
++V+2p+pl+tPres+mInd:^tenéis #;
++V+3p+pl+tPres+mInd:^tienen #;
+
++V+1p+sg+tImp+mInd:^tenía #;
++V+2p+sg+tImp+mInd:^tenías #;
++V+3p+sg+tImp+mInd:^tenía #;
++V+1p+pl+tImp+mInd:^teníamos #;
++V+2p+pl+tImp+mInd:^teníais #;
++V+3p+pl+tImp+mInd:^tenían #;
+
++V+1p+sg+tPret:^tuve #;
++V+2p+sg+tPret:^tuviste #;
++V+3p+sg+tPret:^tuvo #;
++V+1p+pl+tPret:^tuvimos #;
++V+2p+pl+tPret:^tuvisteis #;
++V+3p+pl+tPret:^tuvieron #;
+
++V+1p+sg+tFut+mInd:^tendré #;
++V+2p+sg+tFut+mInd:^tendrás #;
++V+3p+sg+tFut+mInd:^tendá #;
++V+1p+pl+tFut+mInd:^tendremos #;
++V+2p+pl+tFut+mInd:^tendréis #;
++V+3p+pl+tFut+mInd:^tendrán #;
+
++V+1p+sg+mCond:^tendría #;
++V+2p+sg+mCond:^tendrías #;
++V+3p+sg+mCond:^tendría #;
++V+1p+pl+mCond:^tendríamos #;
++V+2p+pl+mCond:^tendríais #;
++V+3p+pl+mCond:^tendrían #;
+
++V+1p+sg+tPres+mSub:^tenga #;
++V+2p+sg+tPres+mSub:^tengas #;
++V+3p+sg+tPres+mSub:^tenga #;
++V+1p+pl+tPres+mSub:^tengamos #;
++V+2p+pl+tPres+mSub:^tengáis #;
++V+3p+pl+tPres+mSub:^tengan #;
+
++V+1p+sg+tImp+mSub:^tuviera #;
++V+2p+sg+tImp+mSub:^tuvieras #;
++V+3p+sg+tImp+mSub:^tuviera #;
++V+1p+pl+tImp+mSub:^tuviéramos #;
++V+2p+pl+tImp+mSub:^tuvierais #;
++V+3p+pl+tImp+mSub:^tuvieran #;
++V+1p+sg+tImp+mSub:^tuviese #;
++V+2p+sg+tImp+mSub:^tuvieses #;
++V+3p+sg+tImp+mSub:^tuviese #;
++V+1p+pl+tImp+mSub:^tuviésemos #;
++V+2p+pl+tImp+mSub:^tuvieseis #;
++V+3p+pl+tImp+mSub:^tuviesen #;
+
++V+1p+sg+tFut+mSub:^tuviere #;
++V+2p+sg+tFut+mSub:^tuvieres #;
++V+3p+sg+tFut+mSub:^tuviere #;
++V+1p+pl+tFut+mSub:^tuviéremos #;
++V+2p+pl+tFut+mSub:^tuviereis #;
++V+3p+pl+tFut+mSub:^tuvieren #;
+
++V+pastPart:^tenido #;
+
++V+Gerund:^teniendo #;

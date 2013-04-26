@@ -1,0 +1,21 @@
+Multichar_Symbols +N +Adj +mas +fem +dim +Sg +Pl +Super +int GUESS
+LEXICON Root
+
+Adjective ;
+
+LEXICON Adjective
+! <[a|á|Á|b| c| d| e| é|É| f| g| h| i|í|Í| j| k| l| m| n|ñ|Ñ| o|ó|Ó| p| q| r| s| t|u|ú|Ú|ü|Ü|v| w| x| y| z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z]*> Adjinf;
+
+LEXICON Adjinf
++Adj+mas+int:^ete #;
++Adj+fem+int:^eta #;
++Adj+Masc+int:^ote #;
++Adj+fem+int:^ota #;
+a+Adj+dim+fem+Sg:^ita #;
+o+Adj+dim+mas+Sg:^ito #;
+a+Adj+dim+fem+Pl:^itas #;
+o+Adj+dim+mas+Pl:^itos #;
+o+Adj+Super+mas+Sg:^isimo #;
+o+Adj+Super+mas+Pl:^isimos #;
+a+Adj+Super+fem+Sg:^isima #;
+a+Adj+Super+fem+Pl:^isimas #;
