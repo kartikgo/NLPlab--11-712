@@ -1,0 +1,89 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund ^GV1 ^GV2 ^GV3
+LEXICON Root
+acertar Verb1;
+acrecentar Verb1;
+alentar Verb1;
+acertar Verb1;
+apretar Verb1;
+arrendar Verb1;
+atravesar Verb1;
+calentar Verb1;
+cegar Verb1;
+cerrar Verb1;
+comenzar Verb1;
+concertar Verb1;
+confesar Verb1;
+desconcertar Verb1;
+desherbar Verb1;
+desmembrar Verb1;
+despertar Verb1;
+desterrar Verb1;
+empezar Verb1;
+encomendar Verb1;
+enmendar Verb1;
+enterrar Verb1;
+errar Verb1;
+fregar Verb1;
+gobernar Verb1;
+helar Verb1;
+invernar Verb1;
+manifestar Verb1;
+mentar Verb1;
+merendar Verb1;
+negar Verb1;
+nevar Verb1;
+pensar Verb1;
+plegar Verb1;
+quebrar Verb1;
+recomendar Verb1;
+regar Verb1;
+renegar Verb1;
+segar Verb1;
+sembrar Verb1;
+segar Verb1;
+sembrar Verb1;
+sentar Verb1;
+serrar Verb1;
+temblar Verb1;
+tentar Verb1;
+tropezar Verb1;
+
+ascender Verb2;
+atender Verb2;
+defender Verb2;
+descender Verb2;
+encender Verb2;
+entender Verb2;
+heder Verb2;
+hender Verb2;
+perder Verb2;
+querer Verb2;
+tender Verb2;
+verter Verb2;
+
+!Verbs ending in ar
+LEXICON Verb1
++V+1p+sg+tPres+mInd:^^^o #;
++V+2p+sg+tPres+mInd:^^^as #;
++V+3p+sg+tPres+mInd:^^^a #;
++V+3p+pl+tPres+mInd:^^^an #;
+
+
++V+1p+sg+tPres+mSub:^^^e #;
++V+2p+sg+tPres+mSub:^^^es #;
++V+3p+sg+tPres+mSub:^^^e #;
++V+3p+pl+tPres+mSub:^^^en #;
+
+
+!Verbs ending in er
+LEXICON Verb2
++V+1p+sg+tPres+mInd:^^^o #;
++V+2p+sg+tPres+mInd:^^^es #;
++V+3p+sg+tPres+mInd:^^^e #;
++V+3p+pl+tPres+mInd:^^^en #;
+
+
++V+1p+sg+tPres+mSub:^^^a #;
++V+2p+sg+tPres+mSub:^^^as #;
++V+3p+sg+tPres+mSub:^^^a #;
++V+3p+pl+tPres+mSub:^^^an #;

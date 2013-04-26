@@ -1,0 +1,18 @@
+define alphabet  [a | á | b | c | d | e | é |  f | g | h | i | í | j | k | l | m | n | ñ | Ñ | o | ó | p | q | r | s | t | u | ú | ü | Ü | v | w | x | y | z];
+
+define Con [b | c | d | f | g | h | j | k | l | m | n | ñ | Ñ | p | q | r | s | t | v | w | x | y | z];
+
+define word alphabet+;
+
+define guesV1 word {ar} [{+Guess}:0];
+define guesV2 word {er} [{+Guess}:0];
+define guesV3 word {ir} [{+Guess}:0];
+read lexc verbgen.lexc
+substitute defined guesV1 for "^GV1"
+substitute defined guesV2 for "^GV2"
+substitute defined guesV3 for "^GV3"
+define Verb;
+define vbar {ar} -> 0 || _ {^} o; 
+!| a s | a | a m o s | á i s | a n | a b a | a b a s | á b a m o s | a b a i s | a b a n | é | a s t e | ó | a m o s | a s t e i s | a r o n | e | e s | e n | a r a | a r a s |  á r a m o s | a r a i s | a r a n | a s e | a s e s | á s e m o s | a s e i s | a s e n | a r e | a r e s | á r e m o s | a r e i s | a r e n | a n d o | a d o] ;
+define Cleanup {^} -> 0 ;
+regex  (Verb .o. vbar .o. Cleanup) ;

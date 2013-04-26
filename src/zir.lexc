@@ -1,0 +1,39 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund ^GV1 ^GV2 ^GV3
+LEXICON Root
+
+acontecer Verb2;
+agradecer Verb2;
+amanecer Verb2;
+enochecer Verb2;
+aparecer Verb2;
+apetecer Verb2;
+carecer Verb2;
+compadecer Verb2;
+comparecer Verb2;
+embellecer Verb2;
+enflaquecer Verb2;
+ennoblecer Verb2;
+enriquecer Verb2;
+envejecer Verb2;
+establecer Verb2;
+fallecer Verb2;
+favorecer Verb2;
+florecer Verb2;
+fortalecer Verb2;
+humedecer Verb2;
+obedecer Verb2;
+ofrecer Verb2;
+oscurecer Verb2;
+padecer Verb2;
+parecer Verb2;
+permanecer Verb2;
+pertenecer Verb2;
+rejuvenecer Verb2;
+restablecer Verb2;
+conocer Verb2;
+nacer Verb2;
+traducir Verb2;
+merecer Verb2;
+
+LEXICON Verb2
++V+1p+sg+tPres+mInd:^o #;

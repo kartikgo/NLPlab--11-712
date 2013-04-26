@@ -1,0 +1,181 @@
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund ^GV1 ^GV2 ^GV3
+LEXICON Root
+acertar Verb1;
+acrecentar Verb1;
+alentar Verb1;
+acertar Verb1;
+apretar Verb1;
+arrendar Verb1;
+atravesar Verb1;
+calentar Verb1;
+cegar Verb1;
+cerrar Verb1;
+comenzar Verb1;
+concertar Verb1;
+confesar Verb1;
+desconcertar Verb1;
+desherbar Verb1;
+desmembrar Verb1;
+despertar Verb1;
+desterrar Verb1;
+empezar Verb1;
+encomendar Verb1;
+enmendar Verb1;
+enterrar Verb1;
+errar Verb1;
+fregar Verb1;
+gobernar Verb1;
+helar Verb1;
+invernar Verb1;
+manifestar Verb1;
+mentar Verb1;
+merendar Verb1;
+negar Verb1;
+nevar Verb1;
+pensar Verb1;
+plegar Verb1;
+quebrar Verb1;
+recomendar Verb1;
+regar Verb1;
+renegar Verb1;
+segar Verb1;
+sembrar Verb1;
+segar Verb1;
+sembrar Verb1;
+sentar Verb1;
+serrar Verb1;
+temblar Verb1;
+tentar Verb1;
+tropezar Verb1;
+jugar Verb1;
+
+acordar Verb1;
+acostar Verb1;
+almorzar Verb1;
+apostar Verb1;
+avergonzar Verb1;
+colarar Verb1;
+colgar Verb1;
+concordar Verb1;
+consolar Verb1;
+contar Verb1;
+costar Verb1;
+degollar Verb1;
+denostar Verb1;
+derrocar Verb1;
+encontrar Verb1;
+forzar Verb1;
+holgar Verb1;
+mostrar Verb1;
+poblar Verb1;
+probar Verb1;
+recordar Verb1;
+regoldar Verb1;
+renovar Verb1;
+rodar Verb1;
+rogar Verb1;
+soldar Verb1;
+soltar Verb1;
+sonar Verb1;
+soñar Verb1;
+tostar Verb1;
+trocar Verb1;
+tronar Verb1;
+volar Verb1;
+volcar Verb1;
+
+absolver Verb2;
+cocer Verb2;
+demoler Verb2;
+disolver Verb2;
+doler Verb2;
+llover Verb2;
+moler Verb2;
+morder Verb2;
+mover Verb2;
+oler Verb2;
+poder Verb2;
+resolver Verb2;
+soler Verb2;
+torcer Verb2;
+volver Verb2;
+adquirir Verb2;
+inquirir Verb2;
+
+ceñir Verb2;
+colegir Verb2;
+competir Verb2;
+concebir Verb2;
+conseguir Verb2;
+corregir Verb2;
+deretir Verb2;
+despedir Verb2;
+elegir Verb2;
+embestir Verb2;
+expedir Verb2;
+gemir Verb2;
+henchir Verb2;
+impedir Verb2;
+investir Verb2;
+medir Verb2;
+pedir Verb2;
+perseguir Verb2;
+proseguir Verb2;
+regir Verb2;
+reir Verb2;
+rendir Verb2;
+reñir Verb2;
+repetir Verb2;
+seguir Verb2;
+servir Verb2;
+sonreír Verb2;
+teñir Verb2;
+vestir Verb2;
+freír Verb2;
+
+!Verbs ending in ar
+LEXICON Verb1
++V+1p+sg+tPres+mInd:^^^o #;
++V+2p+sg+tPres+mInd:^^^as #;
++V+3p+sg+tPres+mInd:^^^a #;
++V+3p+pl+tPres+mInd:^^^an #;
+
+
++V+1p+sg+tPres+mSub:^^^e #;
++V+2p+sg+tPres+mSub:^^^es #;
++V+3p+sg+tPres+mSub:^^^e #;
++V+3p+pl+tPres+mSub:^^^en #;
+
+
+!Verbs ending in er
+LEXICON Verb2
++V+1p+sg+tPres+mInd:^^^o #;
++V+2p+sg+tPres+mInd:^^^es #;
++V+3p+sg+tPres+mInd:^^^e #;
++V+3p+pl+tPres+mInd:^^^en #;
+
+
++V+1p+sg+tPres+mSub:^^^a #;
++V+2p+sg+tPres+mSub:^^^as #;
++V+3p+sg+tPres+mSub:^^^a #;
++V+1p+pl+tPres+mSub:^^^^amos #;
++V+2p+pl+tPres+mSub:^^^^áis #;
++V+3p+pl+tPres+mSub:^^^an #;
+
++V+3p+sg+tPret: ^^^^ió #;
++V+3p+pl+tPret: ^^^^ieron #;
+
++V+1p+sg+tImp+mSub:^^^^iera #;
++V+2p+sg+tImp+mSub:^^^^ieras #;
++V+3p+sg+tImp+mSub:^^^^iera #;
++V+1p+pl+tImp+mSub:^^^^iéramos #;
++V+2p+pl+tImp+mSub:^^^^ierais #;
++V+3p+pl+tImp+mSub:^^^ieran #;
+
++V+1p+sg+tImp+mSub:^^^^iese #;
++V+2p+sg+tImp+mSub:^^^^ieses #;
++V+3p+sg+tImp+mSub:^^^^iese #;
++V+1p+pl+tImp+mSub:^^^^iésemos #;
++V+2p+pl+tImp+mSub:^^^^ieseis #;
++V+3p+pl+tImp+mSub:^^^^iesen #;
++V+Gerund:^^^^iendo #;
