@@ -26,6 +26,9 @@ define Noung;
 read lexc lexnoun.lexc
 define Noun;
 
+read lexc pronoun.lexc
+define proNoun;
+
 define nots word [{ísimo}^1|{ísima}^1|o^1|a^1];
 define notsup word [{ísimo}^1|{ísima}^1];
 define guesA1 [[word o] - notsup] [{+Guess}:0];
@@ -111,6 +114,6 @@ define Cleanup2 {^^^^} -> 0 ;
 define Splclean {^^} -> 0 || [{ar}|{er}|{ir}] _ ;
 define Cleanup {^} -> 0 ;
 
-regex  [ten|se|hab|esta] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] 
-.P. 
+regex  [ten|se|hab|esta|proNoun] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] 
+.p. 
 [[([Noung|Adjectiveg|Verbg] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] ;
