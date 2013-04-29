@@ -232,11 +232,12 @@ The recall on Corpus A with the above-mentioned metrics was {\bf 79.8 \%}.
 \section{Lessons Learned and Revised Design}
 Based upon the feedback given by my informant, following shortcomings of the analyzer were listed:
 \begin{itemize}
-\item Clitics like `damelo´, which involve verbs following direct/indirect pronouns  
-\item Implementing basic infinitive forms of verbs
-\item Adjectival use of Past-Participles 
-\item Other irregular forms which rely on lexicons
-\item Closed forms groups like prononuns, articles, prepositions not implemented yet.
+\item Clitics like `damelo´, which involve verbs following direct/indirect pronouns.  
+\item Implementing basic infinitive forms of verbs.
+\item Adjectival use of Past-Participles.
+\item Verb inflections involving diphthongization and accent modification. 
+\item Other irregular forms which rely on lexicons.
+\item Closed forms groups like prononuns, articles, prepositions have not been implemented yet.
 \end{itemize}
 \section{System Analysis on Corpus B}
 
