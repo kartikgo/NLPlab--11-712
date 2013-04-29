@@ -222,12 +222,22 @@ All the regular rules for the verb inflections described in the previous section
 
 The articles and the pronouns were not hard-wired. Also, the clitics were not handled.
 \section{System Analysis on Corpus A}
-My informant, Jon Barker, mnaually evaluated the analyzer's performance on Corpus A. Since, guesses are also involved in the analyses for words not in the lexicon, the evaluation metric defined was simple and lenient. The recall of the system was calculated and guesses were evaluated to be correct if they managed to yield one or more correct analyses. The average number of guesses the system produces for a word is 5. As a general trend, most of the guesses tend to be one of the correct analyses of the input words when the context is not provided.
-The recall on Corpus A with the above-mentioned metrics was {\bf 79.8 \%} 
+My informant, Jonathan Barker, manually evaluated the analyzer's performance on Corpus A. Since, guesses are also involved in the analyses for words not in the lexicon, the evaluation metric defined was simple and lenient. The recall of the system was calculated and guesses were evaluated to be correct if they managed to yield one or more correct analyses. The average number of guesses the system produces for a word is 5.
+
+\vspace{5mm}
+
+The recall on Corpus A with the above-mentioned metrics was {\bf 79.8 \%}. 
 
 
 \section{Lessons Learned and Revised Design}
-
+Based upon the feedback given by my informant, following shortcomings of the analyzer were listed:
+\begin{itemize}
+\item Clitics like `damelo´, which involve verbs following direct/indirect pronouns  
+\item Implementing basic infinitive forms of verbs
+\item Adjectival use of Past-Participles 
+\item Other irregular forms which rely on lexicons
+\item Closed forms groups like prononuns, articles, prepositions not implemented yet.
+\end{itemize}
 \section{System Analysis on Corpus B}
 
 \section{Final Revisions}
