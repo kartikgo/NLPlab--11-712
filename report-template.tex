@@ -246,11 +246,12 @@ Before analysis on corpus B, the following improvements were added:
 \item Implementing basic infinitive forms of verbs.
 \item Closed forms groups like prononuns, articles, prepositions have been implemented.
 \end{itemize}
-
 The number of types guessed reduced in this corpus.
 
 \section{Final Revisions}
-A analyzer has been improved to handle a class of enclitics. 
+An analyzer has been improved to handle a class of enclitics. These clitics satisfy the rule of pronouns attaching as suffixes to the verb forms. Finally, to improve recall, the variants of words involving accented vowels are also checked and their analyses are returned accordingly. This assumption is a good assumption because as a rule, if the vocal emphasis is on the second last syllable, then the vowel is not accented. But, because of inflections and the constancy of the vocal emphasis, accents are introduced in the spelling. The final normalization rule would account for all such inflections.
+
+The analysis of the analyzer on a 10000 word corpus can be found in the folder `results', having name `Corpus-C\_analysis'.
 
 \section{Future Work}
 This morphological analyzer in its current state can be improved by incorporating larger lexicons so that it resorts to guessing less often. Inflections involving modifications in the surface forms due to diphthongization need to be handled in an elegant manner. Currently, the analyzer handles a subset of cases where such inflections are prevalent.

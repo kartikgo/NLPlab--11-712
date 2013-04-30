@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.25)  29 APR 2013 10:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.25)  30 APR 2013 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,14 +436,14 @@ Missing character: There is no ­ in font cmr10!
  [4]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ´ in font cmr10!
-
+ [5]
 No file report-template.bbl.
-[5] (./report-template.aux) ) 
+[6] (./report-template.aux) ) 
 Here is how much of TeX's memory you used:
- 4675 strings out of 493485
- 67881 string characters out of 3143525
+ 4676 strings out of 493485
+ 67899 string characters out of 3143525
  135157 words of memory out of 3000000
- 7873 multiletter control sequences out of 15000+200000
+ 7874 multiletter control sequences out of 15000+200000
  12799 words of font info for 52 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,11n,43p,944b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -454,10 +454,10 @@ cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report-template.pdf (5 pages, 103979 bytes).
+Output written on report-template.pdf (6 pages, 105350 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
