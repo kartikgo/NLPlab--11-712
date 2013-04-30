@@ -1,0 +1,49 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Atserias et~al.(1998)Atserias, Carmona, Castell{\'o}n, Cervell, Civit,
+  Marquez, Mart{\'\i}, Padr{\'o}, Placer, Rodr{\'\i}guez,
+  et~al.]{atserias1998morphosyntactic}
+Jordi Atserias, Josep Carmona, Irene Castell{\'o}n, Sergi Cervell, Montserrat
+  Civit, Llu{\i}s Marquez, M~Antonia Mart{\'\i}, Llu{\i}s Padr{\'o}, Roser
+  Placer, Horacio Rodr{\'\i}guez, et~al.
+\newblock Morphosyntactic analysis and parsing of unrestricted spanish text.
+\newblock 1998.
+
+\bibitem[Bruyne and Pountain(1995)]{bruyne1995comprehensive}
+Jacques~de Bruyne and Christopher~J Pountain.
+\newblock \emph{A comprehensive Spanish grammar}.
+\newblock Oxford: Blackwell, 1995.
+
+\bibitem[Carmona et~al.(1998)Carmona, Cervell, Marquez, Mart{\'\i}, PadrO,
+  Placer, Rodriguez, Taule, and Turmo]{carmona1998environment}
+Josep Carmona, Sergi Cervell, Lluis Marquez, MA~Mart{\'\i}, Lluis PadrO,
+  Roberto Placer, Horacio Rodriguez, Mariona Taule, and Jordi Turmo.
+\newblock An environment for morphosyntactic processing of unrestricted spanish
+  text.
+\newblock 1998.
+
+\bibitem[Gelbukh and Sidorov(2003)]{gelbukh2003approach}
+Alexander Gelbukh and Grigori Sidorov.
+\newblock Approach to construction of automatic morphological analysis systems
+  for inflective languages with little effort.
+\newblock In \emph{Computational linguistics and intelligent text processing},
+  pages 215--220. Springer, 2003.
+
+\bibitem[Rodr{\'\i}guez and Carretero(1996)]{rodriguez1996formal}
+Santiago Rodr{\'\i}guez and Jes{\'u}s Carretero.
+\newblock A formal approach to spanish morphology: the coi tools.
+\newblock \emph{Procesamiento del Lenguaje Natural}, 19:\penalty0 119, 1996.
+
+\bibitem[Tzoukermann and Liberman(1990)]{tzoukermann1990finite}
+Evelyne Tzoukermann and Mark~Y Liberman.
+\newblock A finite-state morphological processor for spanish.
+\newblock In \emph{Proceedings of the 13th conference on Computational
+  linguistics-Volume 3}, pages 277--282. Association for Computational
+  Linguistics, 1990.
+
+\end{thebibliography}

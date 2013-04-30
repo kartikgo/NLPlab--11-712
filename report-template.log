@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.25)  30 APR 2013 15:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.25)  30 APR 2013 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,13 +152,9 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count100
 )
-
-! LaTeX Error: File `natbibspacing.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(./natbibspacing.sty
+\bibspacing=\dimen114
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
@@ -213,16 +209,16 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count102
 \mult@box=\box29
-\multicol@leftmargin=\dimen114
+\multicol@leftmargin=\dimen115
 \c@unbalance=\count103
 \c@collectmore=\count104
 \doublecol@number=\count105
 \multicoltolerance=\count106
 \multicolpretolerance=\count107
-\full@width=\dimen115
-\page@free=\dimen116
-\premulticols=\dimen117
-\postmulticols=\dimen118
+\full@width=\dimen116
+\page@free=\dimen117
+\premulticols=\dimen118
+\postmulticols=\dimen119
 \multicolsep=\skip60
 \multicolbaselineskip=\skip61
 \partial@page=\box30
@@ -250,22 +246,22 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box52
 \c@columnbadness=\count108
 \c@finalcolumnbadness=\count109
-\last@try=\dimen119
-\multicolovershoot=\dimen120
-\multicolundershoot=\dimen121
+\last@try=\dimen120
+\multicolovershoot=\dimen121
+\multicolundershoot=\dimen122
 \mult@nat@firstbox=\box53
 \colbreak@box=\box54
 \multicol@sort@counter=\count110
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen122
+\bigstrutjot=\dimen123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen123
-\SC@CAPWD=\dimen124
-\SC@tempdima=\dimen125
-\SC@tempdimb=\dimen126
+\SC@BOXWD=\dimen124
+\SC@CAPWD=\dimen125
+\SC@tempdima=\dimen126
+\SC@tempdimb=\dimen127
 \c@SC@C=\count111
 \SC@BOX=\box55
 )
@@ -274,12 +270,12 @@ Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
-\captionmargin=\dimen127
-\captionmargin@=\dimen128
-\captionwidth=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
 )
 \c@ContinuedFloat=\count112
 Package caption Info: rotating package is loaded.
@@ -304,13 +300,13 @@ LaTeX Font Info:    ... okay on input line 52.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
-\scratchdimen=\dimen133
+\scratchdimen=\dimen134
 \scratchbox=\box56
 \nofMPsegments=\count114
 \nofMParguments=\count115
 \everyMPshowfont=\toks22
 \MPscratchCnt=\count116
-\MPscratchDim=\dimen134
+\MPscratchDim=\dimen135
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks23
@@ -437,27 +433,28 @@ Missing character: There is no ­ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ´ in font cmr10!
  [5]
-No file report-template.bbl.
-[6] (./report-template.aux) ) 
+(./report-template.bbl) [6] (./report-template.aux) ) 
 Here is how much of TeX's memory you used:
- 4676 strings out of 493485
- 67899 string characters out of 3143525
- 135157 words of memory out of 3000000
- 7874 multiletter control sequences out of 15000+200000
- 12799 words of font info for 52 fonts, out of 3000000 for 9000
+ 4705 strings out of 493485
+ 68574 string characters out of 3143525
+ 136616 words of memory out of 3000000
+ 7898 multiletter control sequences out of 15000+200000
+ 13145 words of font info for 53 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,43p,944b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report-template.pdf (6 pages, 105472 bytes).
+ 38i,12n,43p,944b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on report-template.pdf (6 pages, 121595 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

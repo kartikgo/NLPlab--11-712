@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report-template.aux
+The style file: plainnat.bst
+Database file #1: refs.bib
+Warning--empty journal in atserias1998morphosyntactic
+Warning--empty journal in carmona1998environment
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            626 strings with 6212 characters,
+and the built_in function-call counts, 3479 in all, are:
+= -- 293
+> -- 269
+< -- 6
++ -- 90
+- -- 84
+* -- 276
+:= -- 543
+add.period$ -- 20
+call.type$ -- 6
+change.case$ -- 44
+chr.to.int$ -- 6
+cite$ -- 14
+duplicate$ -- 145
+empty$ -- 236
+format.name$ -- 98
+if$ -- 727
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 24
+pop$ -- 101
+preamble$ -- 1
+purify$ -- 39
+quote$ -- 0
+skip$ -- 130
+stack$ -- 0
+substring$ -- 85
+swap$ -- 23
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 61
+warning$ -- 2
+while$ -- 25
+width$ -- 0
+write$ -- 82
+(There were 2 warnings)

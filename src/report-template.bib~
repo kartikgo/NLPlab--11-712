@@ -1,0 +1,42 @@
+@incollection{gelbukh2003approach,
+  title={Approach to construction of automatic morphological analysis systems for inflective languages with little effort},
+  author={Gelbukh, Alexander and Sidorov, Grigori},
+  booktitle={Computational linguistics and intelligent text processing},
+  pages={215--220},
+  year={2003},
+  publisher={Springer}
+}
+@inproceedings{tzoukermann1990finite,
+  title={A finite-state morphological processor for Spanish},
+  author={Tzoukermann, Evelyne and Liberman, Mark Y},
+  booktitle={Proceedings of the 13th conference on Computational linguistics-Volume 3},
+  pages={277--282},
+  year={1990},
+  organization={Association for Computational Linguistics}
+}
+@article{rodriguez1996formal,
+  title={A formal approach to spanish morphology: the coi tools},
+  author={Rodr{\'\i}guez, Santiago and Carretero, Jes{\'u}s},
+  journal={Procesamiento del Lenguaje Natural},
+  volume={19},
+  pages={119},
+  year={1996}
+}
+@article{atserias1998morphosyntactic,
+  title={Morphosyntactic analysis and parsing of unrestricted spanish text},
+  author={Atserias, Jordi and Carmona, Josep and Castell{\'o}n, Irene and Cervell, Sergi and Civit, Montserrat and Marquez, Llu{\i}s and Mart{\'\i}, M Antonia and Padr{\'o}, Llu{\i}s and Placer, Roser and Rodr{\'\i}guez, Horacio and others},
+  year={1998},
+  publisher={Citeseer}
+}
+@article{carmona1998environment,
+  title={An environment for morphosyntactic processing of unrestricted spanish text},
+  author={Carmona, Josep and Cervell, Sergi and Marquez, Lluis and Mart{\'\i}, MA and PadrO, Lluis and Placer, Roberto and Rodriguez, Horacio and Taule, Mariona and Turmo, Jordi},
+  year={1998},
+  publisher={Citeseer}
+}
+@book{bruyne1995comprehensive,
+  title={A comprehensive Spanish grammar},
+  author={Bruyne, Jacques de and Pountain, Christopher J},
+  year={1995},
+  publisher={Oxford: Blackwell}
+}
