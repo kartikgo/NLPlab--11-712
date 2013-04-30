@@ -1,0 +1,3 @@
+read lexc pronounfile.lexc
+define proNouns;
+regex proNouns;

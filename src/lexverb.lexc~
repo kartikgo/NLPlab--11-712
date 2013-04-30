@@ -3848,6 +3848,7 @@ LEXICON Verb1
 
 +V+Gerund:^ando #;
 
++Inf:0 #;
 !Verbs ending in er
 LEXICON Verb2
 +V+1p+sg+tPres+mInd:^o #;
@@ -3917,7 +3918,7 @@ LEXICON Verb2
 
 +V+Gerund:^iendo #;
 
-
++Inf:0 #;
 !Verbs ending in ir
 LEXICON Verb3
 +V+1p+sg+tPres+mInd:^o #;
@@ -3985,4 +3986,4 @@ LEXICON Verb3
 +V+pastPart:^ido #;
 
 +V+Gerund:^iendo #;
-
++Inf:0 #;

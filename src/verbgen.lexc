@@ -1,4 +1,4 @@
-Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund ^GV1 ^GV2 ^GV3
+Multichar_Symbols +V +1p +2p +3p +sg +pl +mInd +mSub +mCond +mImp +tFut +tPres +tImp +tPret +pastPart +Gerund +Inf ^GV1 ^GV2 ^GV3
 LEXICON Root
 ^GV1 Verb1;
 ^GV2 Verb2;
@@ -71,7 +71,7 @@ LEXICON Verb1
 +V+pastPart:^ado #;
 
 +V+Gerund:^ando #;
-
++Inf:0 #;
 !Verbs ending in er
 LEXICON Verb2
 +V+1p+sg+tPres+mInd:^o #;
@@ -141,7 +141,7 @@ LEXICON Verb2
 
 +V+Gerund:^iendo #;
 
-
++Inf:0 #;
 !Verbs ending in ir
 LEXICON Verb3
 +V+1p+sg+tPres+mInd:^o #;
@@ -209,4 +209,4 @@ LEXICON Verb3
 +V+pastPart:^ido #;
 
 +V+Gerund:^iendo #;
-
++Inf:0 #;
