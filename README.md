@@ -10,5 +10,6 @@ cat <input_file> | flookup <path-to-analyzer>/Spanishfinal.bin
 
 For modification: The file lex.foma is the foma file which can be modified.
 All the lexc files mentioned in the foma file are available for modification in the src folder.
+
 TO DO:
 Quantitative analysis on Corpus-B.
