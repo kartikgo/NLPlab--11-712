@@ -29,6 +29,9 @@ define Noun;
 read lexc pronounfile.lexc
 define proNouns;
 
+read lexc prep.lexc
+define prepos;
+
 define nots word [{ísimo}^1|{ísima}^1|o^1|a^1];
 define notsup word [{ísimo}^1|{ísima}^1];
 define guesA1 [[word o] - notsup] [{+Guess}:0];
@@ -114,6 +117,7 @@ define remacc e <- é, o <- ó, a <- á, i <- í, u <- ú;
 define Splclean {^^} -> 0 || [{ar}|{er}|{ir}] _ ;
 define Cleanup {^} -> 0 ;
 define pron proNouns .o. remacc;
-regex  [ten|se|hab|esta|pron] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] 
+define prepp prepos .o. remacc;
+regex  [ten|se|hab|esta|pron|prepp] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] 
 .p. 
 [[([Noung|Adjectiveg|Verbg] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] ;

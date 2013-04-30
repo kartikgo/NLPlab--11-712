@@ -241,6 +241,14 @@ Based upon the feedback given by my informant, following shortcomings of the ana
 \end{itemize}
 \section{System Analysis on Corpus B}
 
+Before analysis on corpus B, the following improvements were added:
+\begin{itemize}
+\item Implementing basic infinitive forms of verbs.
+\item Closed forms groups like prononuns, articles, prepositions have been implemented.
+\end{itemize}
+
+The number of types guessed reduced in this corpus.
+
 \section{Final Revisions}
 
 \section{Future Work}
