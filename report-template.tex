@@ -249,7 +249,7 @@ Before analysis on corpus B, the following improvements were added:
 The number of types guessed reduced in this corpus.
 
 \section{Final Revisions}
-An analyzer has been improved to handle a class of enclitics. These clitics satisfy the rule of pronouns attaching as suffixes to the verb forms. Finally, to improve recall, the variants of words involving accented vowels are also checked and their analyses are returned accordingly. This assumption is a good assumption because as a rule, if the vocal emphasis is on the second last syllable, then the vowel is not accented. But, because of inflections and the constancy of the vocal emphasis, accents are introduced in the spelling. The final normalization rule would account for all such inflections.
+An analyzer has been improved to handle a class of enclitics. These clitics satisfy the rule of pronouns attaching as suffixes to the verb forms. Finally, to improve recall, the variants of words involving accented vowels are also checked and their analyses are returned accordingly. This assumption is a good assumption because as a rule, if the vocal emphasis is on the second last syllable, then the vowel is not accented. But, because of inflections and the constancy of the vocal emphasis, accents are introduced in the spelling. The final normalization rule would account for all such inflections. In case the analyzer is guessing, this rule would also result in an increase in the number of guesses as both the accented and the non accented forms will be present in the analysis.
 
 The analysis of the analyzer on a 10000 word corpus can be found in the folder `results', having name `Corpus-C\_analysis'.
 
