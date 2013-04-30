@@ -6,7 +6,4 @@ This is a repository for the course 11-712. This project deals with building a m
 This will be updated throughout the semester.
 
 TO DO:
-Make a seperate lexicon for the greek class of irregular nouns.
-Hard code Pronouns.
-Evaluate on B .
-Generate results for C.
+Handle enclitics. Release the analyzer analysis on Corpus C. Incorporate the bibliography in the report.
