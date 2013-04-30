@@ -119,6 +119,6 @@ define Cleanup {^} -> 0 ;
 define pron proNouns .o. remacc;
 define prepp prepos .o. remacc;
 
-regex  [[[ten|se|hab|esta|pron|prepp] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] .P. [[Verb .o. [vbar|vber] .o. [Splclean|Cleanup]]{-----}:0 [[pron]{-----}:0]+ [{s+pl}:s]^<2{+Clitic}:0]] .o. remacc] 
+regex  [[[ten|se|hab|esta|pron|prepp] .P. [[zVerb .o. vber .o. irr7 .o. Cleanup] .P. [irVerb .o. [red | rede | redi|redii] .o. [irr | irr2 | irr3|irr4|irr5|irr6] .o. [Cleanup1|Cleanup2]] .P. [([greek .p. Noun|Adjective|Verb] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]] .P. [[Verb .o. [vbar|vber] .o. [Splclean|Cleanup]]{-----}:0 [[pron]{-----}:0]+ [{s+pl}:s]^<2{+Clitic}:0]] .o. [remacc|alphabet*]] 
 .p. 
-[[[([Noung|Adjectiveg|Verbg] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]][[{-----}:0 [[pron]{-----}:0]+ [{s+pl}:s]^<2{+Clitic}:0]^<2] .o. remacc] ;
+[[[[([Noung|Adjectiveg|Verbg] .o. [vbar|vber] .o. [conpl .o. corr|cz] .o. [sup1|sup2] .o. advb .o. [Splclean|Cleanup])]][[{-----}:0 [[pron]{-----}:0]+ [{s+pl}:s]^<2{+Clitic}:0]^<2]] .o. [remacc|alphabet*]] ;
